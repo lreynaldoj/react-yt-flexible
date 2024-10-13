@@ -1,6 +1,18 @@
-# react-yt-flexible
+
+<p align="center">
+  <img src="./assets/logo.png" alt="Logo" width="150" />
+</p>
+
+<h1 align="center">React YouTube Flexible</h1>
 
 A flexible React component for embedding YouTube videos or thumbnails with customizable aspect ratios and advanced features.
+
+## Features
+
+- Embed YouTube videos or thumbnails
+- Customizable aspect ratios
+- Support for custom styles and class names
+- Lightweight and easy to use
 
 ## Installation
 
@@ -11,6 +23,7 @@ npm install react-yt-flexible
 ## Usage
 
 ```jsx
+import React from 'react';
 import { ReactYTFlexible } from 'react-yt-flexible';
 
 function App() {
@@ -26,6 +39,8 @@ function App() {
     </div>
   );
 }
+
+export default App;
 ```
 
 ## Props
@@ -35,6 +50,34 @@ function App() {
 - `aspectRatio` (string, optional): '16:9', '4:3', '21:9', '1:1', '9:16', or '3:2'. Default is '16:9'.
 - `borderRadius` (string, optional): CSS border-radius value. Default is '0px'.
 - `style` (object, optional): Additional styles to apply to the container.
+- `className` (string, optional): Additional class names to apply to the container.
+
+## Example
+
+Here is an example of how to use `ReactYTFlexible` in your project:
+
+```jsx
+import React from 'react';
+import { ReactYTFlexible } from 'react-yt-flexible';
+
+function VideoGallery() {
+  return (
+    <div>
+      <ReactYTFlexible videoId="dQw4w9WgXcQ" />
+      <ReactYTFlexible
+        videoId="dQw4w9WgXcQ"
+        mode="thumbnail"
+        aspectRatio="4:3"
+        borderRadius="1rem"
+        style={{ border: '2px solid #000' }}
+        className="custom-class"
+      />
+    </div>
+  );
+}
+
+export default VideoGallery;
+```
 
 ## License
 
