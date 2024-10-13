@@ -1,0 +1,48 @@
+{
+  "name": "react-youtube-embed",
+  "version": "1.0.0",
+  "description": "A flexible React component for embedding YouTube videos or thumbnails",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "build:prod": "NODE_ENV=production rollup -c",
+    "prepublishOnly": "npm run build:prod",
+    "start": "rollup -c -w"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "rollup": "^2.56.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "keywords": [
+    "react",
+    "youtube",
+    "embed",
+    "video",
+    "thumbnail",
+    "component"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/react-youtube-embed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/react-youtube-embed/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/react-youtube-embed#readme"
+}
