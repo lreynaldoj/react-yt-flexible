@@ -15,6 +15,7 @@ const ReactYTFlexible = ({
     aspectRatio = '16:9',
     borderRadius = '0px',
     style = {},
+    className = '',
 }) => {
     const containerStyle = {
         position: 'relative',
@@ -34,7 +35,7 @@ const ReactYTFlexible = ({
     };
 
     return (
-        <div style={containerStyle}>
+        <div style={containerStyle} className={className}>
             {mode === 'video' ? (
                 <iframe
                     style={contentStyle}
