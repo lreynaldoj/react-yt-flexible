@@ -9,7 +9,7 @@ const aspectRatios = {
     '3:2': '66.67%'
 };
 
-const YouTubeEmbed = ({
+const ReactYTFlexible = ({
     videoId,
     mode = 'video',
     aspectRatio = '16:9',
@@ -53,4 +53,5 @@ const YouTubeEmbed = ({
     );
 };
 
-export default YouTubeEmbed;
+export { ReactYTFlexible };
+export default ReactYTFlexible;

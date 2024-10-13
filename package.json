@@ -1,7 +1,7 @@
 {
-  "name": "react-youtube-embed",
+  "name": "react-yt-flexible",
   "version": "1.0.0",
-  "description": "A flexible React component for embedding YouTube videos or thumbnails",
+  "description": "A flexible React component for embedding YouTube videos or thumbnails with advanced features",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "files": [
@@ -33,16 +33,18 @@
     "embed",
     "video",
     "thumbnail",
-    "component"
+    "component",
+    "flexible",
+    "advanced"
   ],
-  "author": "Tu Nombre",
+  "author": "Luis Reynaldo",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tu-usuario/react-youtube-embed.git"
+    "url": "https://github.com/luiserj/react-yt-flexible.git"
   },
   "bugs": {
-    "url": "https://github.com/tu-usuario/react-youtube-embed/issues"
+    "url": "https://github.com/luiserj/react-yt-flexible/issues"
   },
-  "homepage": "https://github.com/tu-usuario/react-youtube-embed#readme"
+  "homepage": "https://github.com/luiserj/react-yt-flexible#readme"
 }

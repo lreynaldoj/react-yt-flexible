@@ -60,7 +60,7 @@ var aspectRatios = {
   '9:16': '177.78%',
   '3:2': '66.67%'
 };
-var YouTubeEmbed = function YouTubeEmbed(_ref) {
+var ReactYTFlexible = function ReactYTFlexible(_ref) {
   var videoId = _ref.videoId,
     _ref$mode = _ref.mode,
     mode = _ref$mode === void 0 ? 'video' : _ref$mode,
@@ -98,5 +98,5 @@ var YouTubeEmbed = function YouTubeEmbed(_ref) {
   }));
 };
 
-exports.YouTubeEmbed = YouTubeEmbed;
+exports.ReactYTFlexible = ReactYTFlexible;
 //# sourceMappingURL=index.js.map

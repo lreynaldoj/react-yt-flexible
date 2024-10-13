@@ -1,2 +1,2 @@
-export { default as YouTubeEmbed } from './components/YouTubeEmbed';
+export { ReactYTFlexible } from './components/YouTubeFlexible';
 

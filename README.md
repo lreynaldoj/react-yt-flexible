@@ -1,21 +1,23 @@
-# react-youtube-embed
+# react-yt-flexible
 
-A flexible React component for embedding YouTube videos or thumbnails with customizable aspect ratios.
+A flexible React component for embedding YouTube videos or thumbnails with customizable aspect ratios and advanced features.
 
 ## Installation
 
 ```bash
-npm install react-youtube-embed
+npm install react-yt-flexible
 ```
 
 ## Usage
 
 ```jsx
+import { ReactYTFlexible } from 'react-yt-flexible';
+
 function App() {
   return (
     <div>
-      <YouTubeEmbed videoId="dQw4w9WgXcQ" />
-      <YouTubeEmbed
+      <ReactYTFlexible videoId="dQw4w9WgXcQ" />
+      <ReactYTFlexible
         videoId="dQw4w9WgXcQ"
         mode="thumbnail"
         aspectRatio="4:3"
