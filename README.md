@@ -5,6 +5,23 @@
 
 <h1 align="center">React YouTube Flexible</h1>
 
+<!--
+<p align="center">
+  <a href="https://www.npmjs.com/package/react-yt-flexible">
+    <img src="https://img.shields.io/npm/v/react-yt-flexible.svg?style=flat-square" alt="npm version" />
+  </a>
+  <a href="https://github.com/luiserj/react-yt-flexible/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/luiserj/react-yt-flexible" alt="GitHub license" />
+  </a>
+  <a href="https://www.npmjs.com/package/react-yt-flexible">
+    <img src="https://img.shields.io/npm/dm/react-yt-flexible.svg?style=flat-square" alt="Downloads" />
+  </a>
+  <a href="https://github.com/luiserj/react-yt-flexible/commits/main">
+    <img src="https://img.shields.io/github/last-commit/luiserj/react-yt-flexible?style=flat-square" alt="Last Commit" />
+  </a>
+</p>
+-->
+
 A flexible React component for embedding YouTube videos or thumbnails with customizable aspect ratios and advanced features.
 
 ## Features
