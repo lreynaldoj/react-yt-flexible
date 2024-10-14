@@ -1,6 +1,6 @@
 {
   "name": "react-yt-flexible",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A flexible React component for embedding YouTube videos or thumbnails with advanced features",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
