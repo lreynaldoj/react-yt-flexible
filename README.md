@@ -119,7 +119,7 @@ Check out these examples to see how `ReactYTFlexible` can be used in different s
 
 ![Thumbnail Example](./assets/thumbnail-example.png)
 
-You can find more examples and live demos [here](https://stackblitz.com/~/github.com/luiserj/react-yt-flexible-examples).
+You can find more examples and live demos [here](https://codesandbox.io/p/github/luiserj/react-yt-flexible-examples/main?import=true).
 
 ## License
 
