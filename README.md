@@ -33,6 +33,10 @@ Check out these examples to see what you can achieve with `ReactYTFlexible`:
 ![Thumbnail Example](./assets/thumbnail-example.png)
 *Thumbnail with hover effect and custom styling*
 
+## Live Demo
+
+Check out our [live demo](https://codesandbox.io/p/github/luiserj/react-yt-flexible-examples/main?import=true) to see `ReactYTFlexible` in action and explore more usage examples.
+
 ## Key Features
 
 - Embed YouTube videos or thumbnails with a single video ID.
@@ -108,10 +112,6 @@ Example:
 ```
 
 This integration allows you to rapidly prototype and build beautiful, responsive YouTube embeds without leaving your Tailwind workflow.
-
-## Live Demo
-
-Check out our [live demo](https://codesandbox.io/p/github/luiserj/react-yt-flexible-examples/main?import=true) to see `ReactYTFlexible` in action and explore more usage examples.
 
 ## License
 
