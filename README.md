@@ -23,13 +23,24 @@
 
 A highly flexible React component for embedding YouTube videos or thumbnails, with customizable aspect ratios, styles, and seamless integration with Tailwind CSS.
 
-## Features
+## Example Gallery
+
+Check out these examples to see what you can achieve with `ReactYTFlexible`:
+
+![Standard Video Example](./assets/standard-video.png)
+*Standard video with custom border radius*
+
+![Thumbnail Example](./assets/thumbnail-example.png)
+*Thumbnail with hover effect and custom styling*
+
+## Key Features
 
 - Embed YouTube videos or thumbnails with a single video ID.
-- Customizable aspect ratios.
+- Customizable aspect ratios (16:9, 4:3, 21:9, 1:1, 9:16, 3:2).
 - Support for custom styles and Tailwind CSS classes.
 - Lightweight and easy to use.
 - Perfect for responsive designs and easily adaptable to various screen sizes.
+- Seamless integration with Tailwind CSS for rapid UI development.
 
 ## Installation
 
@@ -53,7 +64,7 @@ function App() {
       {/* Standard video */}
       <ReactYTFlexible videoId="dQw4w9WgXcQ" />
       
-      {/* Thumbnail mode with custom aspect ratio and border radius */}
+      {/* Thumbnail mode with custom border radius */}
       <ReactYTFlexible
         videoId="dQw4w9WgXcQ"
         mode="thumbnail"
@@ -77,49 +88,30 @@ Here are the available props for the `ReactYTFlexible` component:
 - **`style`** (object, optional): Custom inline styles.
 - **`className`** (string, optional): Tailwind CSS or other class names for additional styling.
 
-## Tailwind Integration
+## Tailwind CSS Integration
 
-One of the key features of `ReactYTFlexible` is its ability to seamlessly integrate with Tailwind CSS. You can easily apply Tailwind classes to control the appearance, transitions, and even animations. Here's an example:
+`ReactYTFlexible` is designed to work seamlessly with Tailwind CSS, allowing you to:
+
+- Apply Tailwind utility classes directly to the component
+- Create responsive designs effortlessly
+- Implement hover, focus, and other interactive states
+- Utilize Tailwind's animation and transition utilities
+
+Example:
 
 ```jsx
 <ReactYTFlexible
   videoId="dQw4w9WgXcQ"
   mode="thumbnail"
-  className="transition duration-500 group-hover:scale-105"
+  className="rounded-lg shadow-lg transition duration-500 group-hover:scale-105"
 />
 ```
 
-This allows you to quickly customize how the video or thumbnail looks, including adding hover effects or responsive design elements, while maintaining a lightweight implementation.
+This integration allows you to rapidly prototype and build beautiful, responsive YouTube embeds without leaving your Tailwind workflow.
 
-## Example Gallery
+## Live Demo
 
-Check out these examples to see how `ReactYTFlexible` can be used in different scenarios:
-
-### Example 1: Standard Video
-
-```jsx
-<ReactYTFlexible videoId="e6T34u51MaA" borderRadius="0.5rem" />
-```
-
-**Result**:
-
-![Standard Video Example](./assets/standard-video.png)
-
-### Example 2: Thumbnail with Custom Styles
-
-```jsx
-<ReactYTFlexible
-  videoId="GDlkCkcIqTs"
-  mode="thumbnail"
-  className="transition duration-500 hover:scale-105"
-/>
-```
-
-**Result**:
-
-![Thumbnail Example](./assets/thumbnail-example.png)
-
-You can find more examples and live demos [here](https://codesandbox.io/p/github/luiserj/react-yt-flexible-examples/main?import=true).
+Check out our [live demo](https://codesandbox.io/p/github/luiserj/react-yt-flexible-examples/main?import=true) to see `ReactYTFlexible` in action and explore more usage examples.
 
 ## License
 
