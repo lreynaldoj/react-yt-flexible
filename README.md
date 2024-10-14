@@ -35,7 +35,7 @@ Check out these examples to see what you can achieve with `ReactYTFlexible`:
 
 ## Live Demo
 
-Check out our <a href="https://codesandbox.io/p/github/luiserj/react-yt-flexible-examples/main?import=true" target="_blank">live demo 23</a> to see `ReactYTFlexible` in action and explore more usage examples.
+Check out our [live demo](https://codesandbox.io/p/github/luiserj/react-yt-flexible-examples/main?import=true) to see `ReactYTFlexible` in action and explore more usage examples.
 
 ## Key Features
 
