@@ -26,7 +26,7 @@ A highly flexible React component for embedding YouTube videos or thumbnails, wi
 ## Features
 
 - Embed YouTube videos or thumbnails with a single video ID.
-- Customizable aspect ratios (`16:9`, `4:3`, `1:1`, etc.).
+- Customizable aspect ratios.
 - Support for custom styles and Tailwind CSS classes.
 - Lightweight and easy to use.
 - Perfect for responsive designs and easily adaptable to various screen sizes.
@@ -119,7 +119,7 @@ Check out these examples to see how `ReactYTFlexible` can be used in different s
 
 ![Thumbnail Example](./assets/thumbnail-example.png)
 
-You can find more examples and live demos [here](https://github.com/luiserj/react-yt-flexible).
+You can find more examples and live demos [here](https://stackblitz.com/~/github.com/luiserj/react-yt-flexible-examples).
 
 ## License
 
