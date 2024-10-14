@@ -1,6 +1,6 @@
 {
   "name": "react-yt-flexible",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A flexible React component for embedding YouTube videos or thumbnails with advanced features",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -52,10 +52,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luiserj/react-yt-flexible.git"
+    "url": "https://github.com/lreynaldoj/react-yt-flexible.git"
   },
   "bugs": {
-    "url": "https://github.com/luiserj/react-yt-flexible/issues"
+    "url": "https://github.com/lreynaldoj/react-yt-flexible/issues"
   },
-  "homepage": "https://github.com/luiserj/react-yt-flexible#readme"
+  "homepage": "https://github.com/lreynaldoj/react-yt-flexible#readme"
 }

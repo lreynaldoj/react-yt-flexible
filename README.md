@@ -4,22 +4,22 @@
 
 <h1 align="center">React YouTube Flexible</h1>
 
-<!--
+
 <p align="center">
   <a href="https://www.npmjs.com/package/react-yt-flexible">
     <img src="https://img.shields.io/npm/v/react-yt-flexible.svg?style=flat-square" alt="npm version" />
   </a>
-  <a href="https://github.com/luiserj/react-yt-flexible/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/luiserj/react-yt-flexible" alt="GitHub license" />
+  <a href="https://github.com/lreynaldoj/react-yt-flexible/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/lreynaldoj/react-yt-flexible" alt="GitHub license" />
   </a>
   <a href="https://www.npmjs.com/package/react-yt-flexible">
     <img src="https://img.shields.io/npm/dm/react-yt-flexible.svg?style=flat-square" alt="Downloads" />
   </a>
-  <a href="https://github.com/luiserj/react-yt-flexible/commits/main">
-    <img src="https://img.shields.io/github/last-commit/luiserj/react-yt-flexible?style=flat-square" alt="Last Commit" />
+  <a href="https://github.com/lreynaldoj/react-yt-flexible/commits/main">
+    <img src="https://img.shields.io/github/last-commit/lreynaldoj/react-yt-flexible?style=flat-square" alt="Last Commit" />
   </a>
 </p>
--->
+
 
 A highly flexible React component for embedding YouTube videos or thumbnails, with customizable aspect ratios, styles, and seamless integration with Tailwind CSS.
 
@@ -35,7 +35,7 @@ Check out these examples to see what you can achieve with `ReactYTFlexible`:
 
 ## Live Demo
 
-Check out our [live demo](https://codesandbox.io/p/github/luiserj/react-yt-flexible-examples/main?import=true) to see `ReactYTFlexible` in action and explore more usage examples.
+Check out our [live demo](https://codesandbox.io/p/github/lreynaldoj/react-yt-flexible-examples/main?import=true) to see `ReactYTFlexible` in action and explore more usage examples.
 
 ## Key Features
 
@@ -115,4 +115,4 @@ This integration allows you to rapidly prototype and build beautiful, responsive
 
 ## License
 
-This project is licensed under the MIT License. You can find the full license [here](https://github.com/luiserj/react-yt-flexible/blob/main/LICENSE).
+This project is licensed under the MIT License. You can find the full license [here](https://github.com/lreynaldoj/react-yt-flexible/blob/main/LICENSE).
